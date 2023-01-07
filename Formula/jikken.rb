@@ -1,17 +1,14 @@
-# Documentation: https://docs.brew.sh/Formula-Cookbook
-#                https://rubydoc.brew.sh/Formula
-# PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 class Jikken < Formula
-  version "0.1.0"  
+  version "0.2.0"  
   desc "API Automation Testing Tool written in Rust"
   homepage "https://github.com/jikkenio/jikken"
   
   if OS.mac?
-    url "https://github.com/jikkenio/jikken/files/10325534/jikken-v0.1.0-x86_64-apple-darwin.tar.gz"
-    sha256 "7e5a90b5511456e6c8882a4b76e2fb615d638603014e0fd8a3026604c8381d41"
+    url "https://github.com/jikkenio/jikken/releases/download/v0.2.0/jikken-v0.2.0-x86_64-apple-darwin.tar.gz"
+    sha256 "75f6376106b1e1f8c1a4d585e9f6d3f0ee6b1dddbbbc1fd154f25d8ea25d073c"
   elsif OS.linux?
-    url "https://github.com/jikkenio/jikken/files/10325532/jikken-v0.1.0-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "982b80902d78a41c0278af5f96f7da7972dfa834890a3f1806511f1744ef8dab"
+    url "https://github.com/jikkenio/jikken/releases/download/v0.2.0/jikken-v0.2.0-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "b6f0b018d903b9d3bd62ba397e3891b94eb25f913d0474a39efe40c6c33c6c47"
   end
 
   def install
