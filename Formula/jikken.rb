@@ -4,11 +4,11 @@ class Jikken < Formula
   homepage "https://github.com/jikkenio/jikken"
   
   if OS.mac?
-    url "https://github.com/jikkenio/jikken/releases/download/v0.7.0/jikken-v0.7.0-x86_64-apple-darwin.tar.gz"
-    sha256 "1580e67aea27997130b451ed0938812c917d7688269046cbc7913671e5b9f38d"
+    url "https://github.com/jikkenio/jikken/releases/download/v0.7.1/jikken-v0.7.1-x86_64-apple-darwin.tar.gz"
+    sha256 "cacd5891ddaf0e0af8da2b840b430238e984083fa4a79e0bacfa584ac22106b7"
   elsif OS.linux?
-    url "https://github.com/jikkenio/jikken/releases/download/v0.7.0/jikken-v0.7.0-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "dc7b73efc67798792f7ee90a94bb0186d8ab60ba44aeb45d6aa2ea6aa8d7b32f"
+    url "https://github.com/jikkenio/jikken/releases/download/v0.7.1/jikken-v0.7.1-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "4991fcbfca2961fb2e5d5b5883f0bc68c8e6194922bd23fb9bd806989c94a89e"
   end
 
   def install
