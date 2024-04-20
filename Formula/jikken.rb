@@ -1,5 +1,5 @@
 class Jikken < Formula
-  version "0.7.0"  
+  version "0.7.1"  
   desc "API Automation Testing Tool written in Rust"
   homepage "https://github.com/jikkenio/jikken"
   
