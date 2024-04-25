@@ -1,14 +1,14 @@
 class Jikken < Formula
-  version "0.7.1"  
+  version "0.7.2"  
   desc "API Automation Testing Tool written in Rust"
   homepage "https://github.com/jikkenio/jikken"
   
   if OS.mac?
-    url "https://github.com/jikkenio/jikken/releases/download/v0.7.1/jikken-v0.7.1-x86_64-apple-darwin.tar.gz"
-    sha256 "cacd5891ddaf0e0af8da2b840b430238e984083fa4a79e0bacfa584ac22106b7"
+    url "https://github.com/jikkenio/jikken/releases/download/v0.7.2/jikken-v0.7.2-x86_64-apple-darwin.tar.gz"
+    sha256 "dff754e0f49d9e6a460e182b921e50ae431498a76b58df0502e544df3a7a451a"
   elsif OS.linux?
-    url "https://github.com/jikkenio/jikken/releases/download/v0.7.1/jikken-v0.7.1-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "4991fcbfca2961fb2e5d5b5883f0bc68c8e6194922bd23fb9bd806989c94a89e"
+    url "https://github.com/jikkenio/jikken/releases/download/v0.7.2/jikken-v0.7.2-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "7bbfa42f29b732656dfe95d3ae76c08dce26cf48da83c90f5d05ed43353d5744"
   end
 
   def install
